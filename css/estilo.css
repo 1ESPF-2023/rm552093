@@ -10,6 +10,7 @@
 
 .container{
     display: flex;
+    height: 60vh;
 }
 
 .banner-1{
@@ -19,7 +20,7 @@
 }
 
 .conteudo{
-flex-grow: 1;
+flex-grow: 5;
 background-color: brown;
 color: #fff;
 }
