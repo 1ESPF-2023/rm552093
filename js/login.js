@@ -12,9 +12,12 @@ botaoSubmit.addEventListener("click", ()=>{
 
     if (inputUser.value.length > 3 && inputPass.value.length > 3) {
 
+        inputUser.setAttribute("style", "outline-color: #00ff00;");
+        inputPass.setAttribute("style", "outline-color: #00ff00;");
+        
+    } else{
         inputUser.setAttribute("style", "outline-color: #ff0000;");
         inputPass.setAttribute("style", "outline-color: #ff0000;");
-        
     }
 
 });
